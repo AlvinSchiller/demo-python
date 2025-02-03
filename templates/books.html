@@ -7,7 +7,7 @@
     <h1>Book Store</h1>
     <ul id="books">
     {% for book in books %}
-        <li>{{ book.name }} by {{ book.author }}</li>
+        <li>{{ book.name }} by {{ book.author }}, {{ book.test }}</li>
     {% endfor %}
     </ul>
 </body>
