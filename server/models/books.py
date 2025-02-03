@@ -6,3 +6,4 @@ class Book():
     name: str
     author: str
     read: bool
+    test: str
